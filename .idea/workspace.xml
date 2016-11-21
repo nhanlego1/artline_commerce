@@ -31,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="commerce_kickstart_style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="commerce_kickstart_style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/artline_store/css/commerce_kickstart_style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -61,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="artline.module" pinned="false" current-in-tab="false">
+      <file leaf-file-name="artline.module" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/artline/artline.module">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="453">
-              <caret line="111" column="152" selection-start-line="111" selection-start-column="152" selection-end-line="111" selection-end-column="152" />
+              <caret line="111" column="66" selection-start-line="111" selection-start-column="66" selection-end-line="111" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -87,9 +87,9 @@
         <option value="$PROJECT_DIR$/profiles/commerce_kickstart/modules/contrib/addressfield/addressfield.address_formats.inc" />
         <option value="$PROJECT_DIR$/sites/all/themes/artline_store/js/commerce_kickstart_theme_custom.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/artline_store/templates/html.tpl.php" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custom/artline/artline.module" />
         <option value="$PROJECT_DIR$/profiles/commerce_kickstart/themes/contrib/omega_kickstart/css/global.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/artline_store/css/commerce_kickstart_style.css" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/artline/artline.module" />
       </list>
     </option>
   </component>
@@ -306,36 +306,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artline_store" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artline_commerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artline_commerce" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -367,78 +337,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="artline" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artline_commerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artline_commerce" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artline" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="icheck" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artline_commerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artline_commerce" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artline" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -767,12 +665,12 @@
       <updated>1479090312385</updated>
       <workItem from="1479090313610" duration="41000" />
       <workItem from="1479090360007" duration="1914000" />
-      <workItem from="1479634120594" duration="30589000" />
+      <workItem from="1479634120594" duration="31203000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32544000" />
+    <option name="totallyTimeSpent" value="33158000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="731" extended-state="6" />
@@ -1144,14 +1042,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/artline/artline.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="111" column="152" selection-start-line="111" selection-start-column="152" selection-end-line="111" selection-end-column="152" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/themes/contrib/omega_kickstart/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
@@ -1164,6 +1054,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="732" column="20" selection-start-line="732" selection-start-column="20" selection-end-line="732" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/artline/artline.module">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="111" column="66" selection-start-line="111" selection-start-column="66" selection-end-line="111" selection-end-column="66" />
           <folding />
         </state>
       </provider>
