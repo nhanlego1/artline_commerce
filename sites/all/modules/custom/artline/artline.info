@@ -1,0 +1,6 @@
+name = "Artline"
+description = "Custom module function"
+package = "Artline"
+core = "7.x"
+
+

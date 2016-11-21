@@ -1,0 +1,118 @@
+<?php
+
+/**
+ * implement custom moule
+ */
+/**
+ * Implement hook_init
+ */
+function artline_init(){
+    drupal_add_js(drupal_get_path('module','artline').'/lib/icheck/icheck.js');
+    drupal_add_js(drupal_get_path('module','artline').'/js/jquery.nice-select.js');
+    drupal_add_css(drupal_get_path('module','artline').'/css/nice-select.css');
+    drupal_add_css(drupal_get_path('module', 'artline') . '/lib/icheck/skins/all.css');
+}
+
+/**
+ * implement hook_form_alter
+ */
+
+/**
+ * @param $form
+ * @param $form_state
+ * @return mixed
+ */
+function artline_form_add_to_cart($form, &$form_state)
+{
+    $node = $form_state['build_info']['args'][0];
+    foreach ($node->field_product[LANGUAGE_NONE] as $id) {
+        $product = commerce_product_load($id['product_id']);
+        $color = taxonomy_term_load($product->field_color[LANGUAGE_NONE][0]['tid']);
+        $form['color_' . $id['product_id']] = array(
+            '#type' => 'checkbox',
+            '#title' => '<span class="color-label" data="'.$color->field_category_color[LANGUAGE_NONE][0]['value'].'"></span>',
+            '#attributes'=>array('data'=>$id['product_id'],'color'=>$color->field_category_color[LANGUAGE_NONE][0]['value']),
+            '#prefix'=>'<div class="grid-2">'
+        );
+        $form['qty_' . $id['product_id']] = array(
+            '#type' => 'select',
+            '#title' => 'Số lượng',
+            '#options'=>array(
+                1=>1,
+                2=>2,
+                3=>3,
+                4=>4,
+                5=>5,
+                6=>6,
+                7=>7,
+                8=>8,
+                9=>9,
+                10=>10,
+                20=>20,
+                30=>30,
+                50=>50,
+                100=>100
+            ),
+            '#attributes'=>array('class'=>array('qty_cart')),
+            '#suffix'=>'</div>'
+        );
+    }
+
+    $form['submit'] = array(
+        '#type'=>'submit',
+        '#value'=>'Thêm vào giỏ hàng',
+        '#prefix'=>'<div class="clearfix"></div>'
+    );
+    return $form;
+}
+
+/**
+ * @param $form
+ * @param $form_state
+ */
+function artline_form_add_to_cart_submit($form, &$form_state){
+    $node = $form_state['build_info']['args'][0];
+    foreach($node->field_product[LANGUAGE_NONE] as $id){
+       if($form_state['values']['color_'.$id['product_id']] == 1){
+           commerce_cart_product_add_by_id($id['product_id'], $form_state['values']['qty_'.$id['product_id']]);
+       }
+    }
+
+}
+
+/**
+ * get price of node
+ */
+function _get_price_node($nid){
+    $node = node_load($nid);
+    $product = commerce_product_load($node->field_product[LANGUAGE_NONE][0]['product_id']);
+    $price = commerce_currency_format($product->commerce_price[LANGUAGE_NONE][0]['amount'],$product->commerce_price[LANGUAGE_NONE][0]['currency_code']);
+    return $price;
+}
+
+/**
+ * Implementation of hook_block_info().
+ */
+function artline_block_info()
+{
+    $blocks = array();
+    $blocks['artline_fanpage'] = array('info' => t('Artline Fanpage'));
+    return $blocks;
+}
+
+/**
+ * Implementation of hook_block_view().
+ */
+function artline_block_view($delta = '')
+{
+    switch ($delta) {
+        case 'artline_fanpage':
+            return array(
+                'subject' => t('Artline Fanpage'),
+                'content' => '<div class="fb-page" data-width="225px" data-href="'.variable_get("facebook_fanpage","https://www.facebook.com/artline.vn/").'" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"></div>',
+            );
+
+            break;
+
+    }
+}
