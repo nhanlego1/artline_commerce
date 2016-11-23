@@ -109,7 +109,7 @@ function artline_block_view($delta = '')
         case 'artline_fanpage':
             return array(
                 'subject' => t('Artline Fanpage'),
-                'content' => '<div class="fb-page" data-width="300px" data-href="'.variable_get("facebook_fanpage","https://www.facebook.com/artline.vn/").'" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"></div>',
+                'content' => '<div class="fb-page" data-width="320px" data-href="'.variable_get("facebook_fanpage","https://www.facebook.com/artline.vn/").'" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"></div>',
             );
 
             break;
