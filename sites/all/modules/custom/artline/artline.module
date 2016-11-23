@@ -3,13 +3,48 @@
 /**
  * implement custom moule
  */
+
+/**
+ * Implement hook_menu
+ */
+function artline_menu(){
+    $items['admin/config/content/artline'] = array(
+        'title' => 'Artline ',
+        'description' => 'Control config for artline.',
+        'page callback' => 'drupal_get_form',
+        'page arguments' => array('artline_admin'),
+        'access arguments' => array('administer artline'),
+        'file' => 'artline.admin.inc',
+    );
+    $items['admin/dashboard'] = array(
+        'title' => 'Admin Dashboard ',
+        'description' => 'Control config for artline.',
+        'page callback' => 'artline_admin_dashboard',
+        'access arguments' => array('administer artline'),
+    );
+    return $items;
+}
+
+/**
+ * Implements hook_permission().
+ */
+function artline_permission()
+{
+    return array(
+        'administer artline' => array(
+            'title' => t('Administer Artline'),
+            'restrict access' => TRUE,
+        ),
+    );
+}
 /**
  * Implement hook_init
  */
-function artline_init(){
-    drupal_add_js(drupal_get_path('module','artline').'/lib/icheck/icheck.js');
-    drupal_add_js(drupal_get_path('module','artline').'/js/jquery.nice-select.js');
-    drupal_add_css(drupal_get_path('module','artline').'/css/nice-select.css');
+function artline_init()
+{
+    drupal_add_js(drupal_get_path('module', 'artline') . '/lib/icheck/icheck.js');
+    drupal_add_js(drupal_get_path('module', 'artline') . '/js/jquery.nice-select.js');
+    drupal_add_css(drupal_get_path('module', 'artline') . '/css/nice-select.css');
     drupal_add_css(drupal_get_path('module', 'artline') . '/lib/icheck/skins/all.css');
 }
 
@@ -30,38 +65,38 @@ function artline_form_add_to_cart($form, &$form_state)
         $color = taxonomy_term_load($product->field_color[LANGUAGE_NONE][0]['tid']);
         $form['color_' . $id['product_id']] = array(
             '#type' => 'checkbox',
-            '#title' => '<span class="color-label" data="'.$color->field_category_color[LANGUAGE_NONE][0]['value'].'"></span>',
-            '#attributes'=>array('data'=>$id['product_id'],'color'=>$color->field_category_color[LANGUAGE_NONE][0]['value']),
-            '#prefix'=>'<div class="grid-2">'
+            '#title' => '<span class="color-label" data="' . $color->field_category_color[LANGUAGE_NONE][0]['value'] . '"></span>',
+            '#attributes' => array('data' => $id['product_id'], 'color' => $color->field_category_color[LANGUAGE_NONE][0]['value']),
+            '#prefix' => '<div class="grid-2">'
         );
         $form['qty_' . $id['product_id']] = array(
             '#type' => 'select',
             '#title' => 'Số lượng',
-            '#options'=>array(
-                1=>1,
-                2=>2,
-                3=>3,
-                4=>4,
-                5=>5,
-                6=>6,
-                7=>7,
-                8=>8,
-                9=>9,
-                10=>10,
-                20=>20,
-                30=>30,
-                50=>50,
-                100=>100
+            '#options' => array(
+                1 => 1,
+                2 => 2,
+                3 => 3,
+                4 => 4,
+                5 => 5,
+                6 => 6,
+                7 => 7,
+                8 => 8,
+                9 => 9,
+                10 => 10,
+                20 => 20,
+                30 => 30,
+                50 => 50,
+                100 => 100
             ),
-            '#attributes'=>array('class'=>array('qty_cart')),
-            '#suffix'=>'</div>'
+            '#attributes' => array('class' => array('qty_cart')),
+            '#suffix' => '</div>'
         );
     }
 
     $form['submit'] = array(
-        '#type'=>'submit',
-        '#value'=>'Thêm vào giỏ hàng',
-        '#prefix'=>'<div class="clearfix"></div>'
+        '#type' => 'submit',
+        '#value' => 'Thêm vào giỏ hàng',
+        '#prefix' => '<div class="clearfix"></div>'
     );
     return $form;
 }
@@ -70,12 +105,13 @@ function artline_form_add_to_cart($form, &$form_state)
  * @param $form
  * @param $form_state
  */
-function artline_form_add_to_cart_submit($form, &$form_state){
+function artline_form_add_to_cart_submit($form, &$form_state)
+{
     $node = $form_state['build_info']['args'][0];
-    foreach($node->field_product[LANGUAGE_NONE] as $id){
-       if($form_state['values']['color_'.$id['product_id']] == 1){
-           commerce_cart_product_add_by_id($id['product_id'], $form_state['values']['qty_'.$id['product_id']]);
-       }
+    foreach ($node->field_product[LANGUAGE_NONE] as $id) {
+        if ($form_state['values']['color_' . $id['product_id']] == 1) {
+            commerce_cart_product_add_by_id($id['product_id'], $form_state['values']['qty_' . $id['product_id']]);
+        }
     }
 
 }
@@ -83,10 +119,11 @@ function artline_form_add_to_cart_submit($form, &$form_state){
 /**
  * get price of node
  */
-function _get_price_node($nid){
+function _get_price_node($nid)
+{
     $node = node_load($nid);
     $product = commerce_product_load($node->field_product[LANGUAGE_NONE][0]['product_id']);
-    $price = commerce_currency_format($product->commerce_price[LANGUAGE_NONE][0]['amount'],$product->commerce_price[LANGUAGE_NONE][0]['currency_code']);
+    $price = commerce_currency_format($product->commerce_price[LANGUAGE_NONE][0]['amount'], $product->commerce_price[LANGUAGE_NONE][0]['currency_code']);
     return $price;
 }
 
@@ -97,6 +134,7 @@ function artline_block_info()
 {
     $blocks = array();
     $blocks['artline_fanpage'] = array('info' => t('Artline Fanpage'));
+    $blocks['back_admin'] = array('info' => t('Backtoadmin'));
     return $blocks;
 }
 
@@ -109,10 +147,146 @@ function artline_block_view($delta = '')
         case 'artline_fanpage':
             return array(
                 'subject' => t('Artline Fanpage'),
-                'content' => '<div class="fb-page" data-width="320px" data-href="'.variable_get("facebook_fanpage","https://www.facebook.com/artline.vn/").'" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"></div>',
+                'content' => '<div class="fb-page" data-width="320px" data-href="' . variable_get("facebook_fanpage", "https://www.facebook.com/artline.vn/") . '" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"></div>',
+            );
+
+            break;
+        case 'back_admin':
+            return array(
+                'content' => '<div class="admin-dashboard-back"><a href="/admin/dashboard">&lt;&lt; Back to dashboard</a></div>',
             );
 
             break;
 
     }
+}
+
+/**
+ * Implementation of hook_theme().
+ */
+function artline_theme()
+{
+    $items = array();
+
+    $items['category_parent'] = array(
+        'render element' => 'element',
+        'path' => drupal_get_path('module', 'artline') . '/theme',
+        'template' => 'category-parent',
+    );
+
+    $items['category_child'] = array(
+        'render element' => 'element',
+        'path' => drupal_get_path('module', 'artline') . '/theme',
+        'template' => 'category-detail',
+    );
+    $items['admin_dashboard'] = array(
+        'render element' => 'element',
+        'path' => drupal_get_path('module', 'artline') . '/theme',
+        'template' => 'admin-dashboard',
+    );
+
+    return $items;
+}
+
+
+/**
+ * function get category
+ */
+function get_category_page($tid)
+{
+    drupal_add_js(drupal_get_path('module', 'artline') . '/js/owl.carousel.js');
+    drupal_add_css(drupal_get_path('module', 'artline') . '/css/owl.carousel.css');
+    drupal_add_css(drupal_get_path('module', 'artline') . '/css/owl.carousel.min.css');
+    drupal_add_js(drupal_get_path('module', 'artline') . '/js/artline.js');
+    $children = taxonomy_get_children($tid);
+    if ($children) {
+
+        foreach ($children as $child) {
+            if($small_children = taxonomy_get_children($child->tid)){
+                return _get_category_parent($child->tid);
+            }else{
+                return _get_category_parent($tid);
+            }
+
+        }
+    } else {
+        return _get_category_child($tid);
+    }
+}
+
+/**
+ * get category parent
+ */
+function _get_category_parent($tid)
+{
+    $term = taxonomy_term_load($tid);
+    $children = taxonomy_get_children($tid);
+    $data = array();
+    if ($children) {
+        foreach ($children as $child) {
+            $data[$child->tid] = _get_nodes_taxonomy($child->tid);
+        }
+    }
+
+    if ($data) {
+        return theme('category_parent', array('terms' => $data));
+    } else {
+        return false;
+    }
+
+
+}
+
+/**
+ * get category parent
+ */
+function _get_category_child($tid)
+{
+    $data = array();
+    $data['term'] = taxonomy_term_load($tid);
+    $data['nodes'] = _get_nodes_taxonomy($tid);
+    return theme('category_child', array('data' => $data));
+}
+
+/**
+ * get node by taxonomy
+ */
+
+function _get_nodes_taxonomy($tid)
+{
+    $nodes = taxonomy_select_nodes($tid);
+    $data = array();
+    if ($nodes) {
+        foreach ($nodes as $nid) {
+            $data[] = node_load($nid);
+        }
+    }
+    if ($data) {
+        return $data;
+    } else {
+        return false;
+    }
+}
+
+/**
+ * trim 200 character
+ */
+function _trim_character($content, $num = 200)
+{
+    if ($content) {
+        $content = strip_tags($content);
+        $pos = strpos($content, ' ', $num);
+        return substr($content, 0, $pos);
+    } else {
+        return '';
+    }
+
+}
+
+/**
+ * admin dashboard
+ */
+function artline_admin_dashboard(){
+    drupal_add_css(drupal_get_path('module', 'artline') . '/lib/admin_panel/admin-panel.css');
+    return theme('admin_dashboard');
 }

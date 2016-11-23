@@ -104,10 +104,11 @@
       $(".customer_profile_billing legend span").text('Thông tin thanh toán');
       $(".customer_profile_shipping legend span").text('Thông tin giao hàng');
       $(".checkout-review tr.pane-title td").each(function(e){
-        if(e == 2){
+
+        if(e == 1){
           $(this).text('Thông tin thanh toán');
         }
-        if(e == 3){
+        if(e == 2){
           $(this).text('Thông tin giao hàng');
         }
       });

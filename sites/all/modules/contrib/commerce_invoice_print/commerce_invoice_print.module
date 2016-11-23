@@ -1,0 +1,31 @@
+<?php
+
+/**
+ * @file
+ *
+ * This module Allows to add a print template for Commerce order invoices.
+ *
+ * @author: David Stosik
+ * @maintainer: alvar0hurtad0
+ */
+
+/**
+ * Implements hook_preprocess_print().
+ *
+ * Hook during print page preprocessing.
+ */
+function commerce_invoice_print_preprocess_print(&$vars) {
+  $matches = array();
+  if (preg_match('!admin/commerce/orders/(\d+)/invoice!', current_path(), $matches)) {
+    $formats = array('', 'html');
+    foreach ($formats as $format) {
+      $order_id = $matches[1];
+      $suggestion = 'print__';
+      $suggestion .= $format ? $format . '__' : '';
+      $suggestion .= 'invoice';
+      array_push($vars['theme_hook_suggestions'], $suggestion);
+      array_push($vars['theme_hook_suggestions'], "{$suggestion}__$order_id");
+    }
+    $vars['commerce_order'] = commerce_order_load($order_id);
+  }
+}

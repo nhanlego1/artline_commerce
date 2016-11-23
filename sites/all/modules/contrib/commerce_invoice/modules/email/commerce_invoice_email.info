@@ -1,0 +1,14 @@
+; $Id$
+name = Invoice Email
+description = Integrates Commerce Invoice with Commerce Email (2.x)
+package = Commerce (contrib)
+core = 7.x
+dependencies[] = commerce_invoice
+dependencies[] = commerce_email
+
+; Information added by drupal.org packaging script on 2013-09-30
+version = "7.x-1.0-alpha3+14-dev"
+core = "7.x"
+project = "commerce_invoice"
+datestamp = "1380560303"
+

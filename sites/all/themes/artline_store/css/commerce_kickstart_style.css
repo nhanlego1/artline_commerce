@@ -507,7 +507,12 @@ label.option {
   text-align: center;
   margin-bottom: 30px;
 }
-.views-row.grid-7 .views-field-title a{
+.views-row.grid-7 .views-field-title{
+  color: #336699;
+  font-weight: bold;
+  font-size: 14px;
+}
+.views-row.grid-7 .views-field-title a, .views-field-title-field a{
   color: #336699;
   font-weight: bold;
   font-size: 14px;
@@ -522,7 +527,7 @@ label.option {
 .container-24 .views-row.grid-7 {
   width: 250px!important;
   min-height: 432px;
-  box-shadow: 5px 5px 5px #999999;
+
 }
 #artline-form-add-to-cart .form-type-checkbox{
   margin: 0px;
@@ -598,18 +603,18 @@ h2.block-title {
 .views-field-title{
   padding: 5px;
 }
-.field-name-body{
+.field-name-body, .views-field-body-value{
   padding: 5px;
   color:#666;
 }
-.field-name-field-product-images{
+.field-name-field-product-images, .views-field-field-product-images{
   border-bottom: 1px solid #eee;
   margin-bottom: 10px;
 }
 .product-image-detail{
-  box-shadow: 5px 5px 5px #999;
+  border-right: 1px solid #eee;
 }
-.view-product-list h3{
+.view-product-list h3, .category-wrapper h3{
   clear:both;
   width: 100%;
   margin-left: 12px;
@@ -620,6 +625,127 @@ h2.block-title {
 }
 .page-taxonomy-term h1.title{
   display: none;
+}
+.owl-nav .owl-prev{
+  position: absolute;
+  top: 40%;
+  left: -21px;
+  background: url(../images/arrow-prev.png) no-repeat center center;
+  width: 40px;
+  height: 47px;
+  font-size: 0;
+}
+
+.owl-nav .owl-next{
+  position: absolute;
+  top: 40%;
+  right: -19px;
+  background: url(../images/arrow.png) no-repeat center center;
+  width: 40px;
+  height: 47px;
+  font-size: 0;
+}
+.field-name-body p, .views-field-body-value p{
+  margin-bottom: 0px;
+}
+
+.image-hot{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45px;
+  height: 35px;
+  background: url(../images/hot.png) no-repeat center;
+  z-index: 9999;
+
+}
+
+.cloud-zoom-gallery-thumbs img{
+  width: 60px!important;
+  height: auto;
+}
+.zone-footer-wrapper {
+  padding-top: 32px;
+  padding-bottom: 10px;
+}
+.admin-dashboard-back {
+  position: fixed;
+  z-index: 999999;
+  left: 10px;
+  bottom: 10px;
+  width: 153px;
+  padding: 10px 5px;
+  background: #48649f;
+}
+.admin-dashboard-back a{
+  color: #fff;
+}
+.ctools-twisty {
+   border-bottom-color: transparent;
+   border-left-color: transparent;
+   border-right-color: transparent;
+   border-style: none!important;
+  border-width: 4px 4px 0;
+  line-height: 0;
+  right: 6px;
+  position: absolute;
+  top: 0.75em;
+}
+.node-form .filter-wrapper{
+  display: none;
+}
+#tops-node-form .filter-wrapper{
+  display: none;
+}
+#edit-field-product-images .fieldset-legend{
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+}
+#tops-node-form #edit-field-product-images{
+  margin-top: 20px;
+}
+.field-type-commerce-product-reference .fieldset-legend{
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+}
+#tops-node-form ul.vertical-tabs-list, .node-form ul.vertical-tabs-list{
+  display: none;
+}
+.node-form .vertical-tabs{
+  border: 0;
+  margin: 0px;
+}
+#taxonomy-form-term .text-format-wrapper{
+  display: none;
+}
+#taxonomy-form-term .form-item-weight{
+  clear: both;
+  margin-top: 20px;
+}
+#taxonomy-form-term .nice-select{
+  width: 15%;
+}
+
+
+
+@media print {
+  #zone-footer{
+    display: none;
+  }
+  .breadcrumb{
+    display: none;
+  }
+  #zone-user-wrapper{
+    display: none;
+  }
+  h1.title{
+    display: none;
+  }
+  ul.tabs{
+    display: none;
+  }
 }
 
 @media only screen and (min-device-width: 1025px) {
@@ -747,6 +873,7 @@ float: right;
   .container-24 .views-row.grid-7 {
     width: 92%!important;
     min-height: 432px;
+    box-shadow: none;
   }
   .responsive-menus.responsified span.toggler {
     padding: 1px;
@@ -771,7 +898,11 @@ float: right;
   }
   .container-24 .views-row.grid-7 {
     width: 45%!important;
-    min-height: 445px;
+    min-height: 463px;
+  }
+  .container-24 .owl-item .views-row.grid-7 {
+    width: 92%!important;
+    min-height: 560px;
   }
   #block-nice-menus-1 ul.nice-menu-down li a {
     color: #fff;

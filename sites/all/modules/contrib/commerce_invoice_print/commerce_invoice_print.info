@@ -1,0 +1,13 @@
+name = "Commerce invoice print"
+description = "Allows to add a print template for Commerce order invoices."
+core=7.x
+package = "Commerce"
+dependencies[] = print
+dependencies[] = commerce_invoice
+
+; Information added by Drupal.org packaging script on 2014-07-30
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "commerce_invoice_print"
+datestamp = "1406734128"
+
