@@ -728,6 +728,18 @@ h2.block-title {
   width: 15%;
 }
 
+#toolbar-user {
+  width: 21%;
+  left: auto;
+  right: 0;
+}
+#toolbar .wrapper-depth-2 {
+  width: 65%;
+  padding-top: 2px;
+  left: 144px;
+  position: absolute;
+}
+
 
 
 @media print {

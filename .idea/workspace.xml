@@ -2,212 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ca18235-a9af-4753-ad8d-fd9a7a40faef" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/arrow-prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/bct_xstamper.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/bg_ad_push_headline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/bg_add_to_cart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/bg_add_to_cart_overlay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/bg_block_footer_title-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/bg_block_footer_title.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/bg_block_homepage_title-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/bg_block_homepage_title.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/bg_blog_headline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/bg_checkout_progress.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/bg_checkout_progress_active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/bg_checkout_progress_ie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/bg_checkout_progress_ie_last.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/bg_checkout_progress_ie_visited.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/bg_checkout_progress_last.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/bg_product_attributes_bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/bg_product_attributes_top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/bg_product_special.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/bg_search_product_name.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/bg_title_slideshow_current.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/bg_title_slideshow_next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/bg_title_slideshow_previous.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/btn_add-to-cart-close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/btn_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/btn_facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/btn_google.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/btn_product_label_new.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/btn_product_label_sale.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/btn_read_less.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/btn_read_more.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/btn_twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/hot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/icon_add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/icon_chat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/icon_facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/icon_pinterest.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/icon_read-more.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/icon_twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/picto_american_express.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/picto_cart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/picto_magnifying_glass.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/picto_mastercard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/picto_paypal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/picto_visa_premier.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/select-arrow-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/images/select-arrow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/screenshot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/arrow-prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/arrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/bct_xstamper.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/bg_ad_push_headline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/bg_add_to_cart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/bg_add_to_cart_overlay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/bg_block_footer_title-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/bg_block_footer_title.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/bg_block_homepage_title-rtl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/bg_block_homepage_title.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/bg_blog_headline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/bg_checkout_progress.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/bg_checkout_progress_active.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/bg_checkout_progress_ie.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/bg_checkout_progress_ie_last.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/bg_checkout_progress_ie_visited.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/bg_checkout_progress_last.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/bg_product_attributes_bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/bg_product_attributes_top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/bg_product_special.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/bg_search_product_name.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/bg_title_slideshow_current.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/bg_title_slideshow_next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/bg_title_slideshow_previous.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/btn_add-to-cart-close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/btn_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/btn_facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/btn_google.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/btn_product_label_new.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/btn_product_label_sale.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/btn_read_less.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/btn_read_more.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/btn_twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/button.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/hot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/icon_add.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/icon_chat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/icon_facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/icon_pinterest.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/icon_read-more.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/icon_twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/picto_american_express.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/picto_cart.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/picto_magnifying_glass.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/picto_mastercard.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/picto_paypal.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/picto_visa_premier.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/select-arrow-rtl.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/images/select-arrow.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/screenshot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/artline_store_green.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/config.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/css/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/css/commerce-kickstart-theme-alpha-default-narrow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/css/commerce-kickstart-theme-alpha-default-normal-rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/css/commerce-kickstart-theme-alpha-default-normal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/css/commerce-kickstart-theme-alpha-default-rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/css/commerce-kickstart-theme-alpha-default-wide.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/css/commerce-kickstart-theme-alpha-default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/css/commerce-kickstart-theme-ie-lte-7-rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/css/commerce-kickstart-theme-ie-lte-7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/css/commerce-kickstart-theme-ie-lte-8-rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/css/commerce-kickstart-theme-ie-lte-8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/css/commerce_kickstart_style-rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/css/commerce_kickstart_style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/css/global-rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/css/mail.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/js/commerce_kickstart_theme_custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/preprocess/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/preprocess/preprocess-page.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/process/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/scss/commerce-kickstart-theme-alpha-default-narrow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/scss/commerce-kickstart-theme-alpha-default-normal-rtl.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/scss/commerce-kickstart-theme-alpha-default-normal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/scss/commerce-kickstart-theme-alpha-default-rtl.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/scss/commerce-kickstart-theme-alpha-default-wide.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/scss/commerce-kickstart-theme-alpha-default.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/scss/commerce-kickstart-theme-ie-lte-7-rtl.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/scss/commerce-kickstart-theme-ie-lte-7.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/scss/commerce-kickstart-theme-ie-lte-8-rtl.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/scss/commerce-kickstart-theme-ie-lte-8.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/scss/commerce_kickstart_style-rtl.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/scss/commerce_kickstart_style.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/scss/global-rtl.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/scss/mail.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/templates/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/templates/comment.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/templates/html.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/templates/maintenance-page.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/templates/node--blog_post.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/templates/node--tops.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/templates/node.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/templates/region--branding.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/templates/region--content.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/templates/region--menu.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/artline_store_red.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/config.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/css/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/css/commerce-kickstart-theme-alpha-default-narrow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/css/commerce-kickstart-theme-alpha-default-normal-rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/css/commerce-kickstart-theme-alpha-default-normal.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/css/commerce-kickstart-theme-alpha-default-rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/css/commerce-kickstart-theme-alpha-default-wide.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/css/commerce-kickstart-theme-alpha-default.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/css/commerce-kickstart-theme-ie-lte-7-rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/css/commerce-kickstart-theme-ie-lte-7.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/css/commerce-kickstart-theme-ie-lte-8-rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/css/commerce-kickstart-theme-ie-lte-8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/css/commerce_kickstart_style-rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/css/commerce_kickstart_style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/css/global-rtl.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/css/mail.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/js/commerce_kickstart_theme_custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/preprocess/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/preprocess/preprocess-page.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/process/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/scss/commerce-kickstart-theme-alpha-default-narrow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/scss/commerce-kickstart-theme-alpha-default-normal-rtl.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/scss/commerce-kickstart-theme-alpha-default-normal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/scss/commerce-kickstart-theme-alpha-default-rtl.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/scss/commerce-kickstart-theme-alpha-default-wide.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/scss/commerce-kickstart-theme-alpha-default.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/scss/commerce-kickstart-theme-ie-lte-7-rtl.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/scss/commerce-kickstart-theme-ie-lte-7.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/scss/commerce-kickstart-theme-ie-lte-8-rtl.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/scss/commerce-kickstart-theme-ie-lte-8.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/scss/commerce_kickstart_style-rtl.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/scss/commerce_kickstart_style.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/scss/global-rtl.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/scss/mail.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/template.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/templates/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/templates/comment.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/templates/html.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/templates/maintenance-page.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/templates/node--blog_post.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/templates/node--tops.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/templates/node.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/templates/region--branding.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/templates/region--content.tpl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/templates/region--menu.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/artline_store/screenshot.png" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store/screenshot.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/custom/artline/theme/admin-dashboard.tpl.php" afterPath="$PROJECT_DIR$/sites/all/modules/custom/artline/theme/admin-dashboard.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/artline_store/artline_store.info" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store/artline_store.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/artline_store/css/commerce_kickstart_style.css" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store/css/commerce_kickstart_style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/artline_store_green/css/commerce_kickstart_style.css" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/css/commerce_kickstart_style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/artline_store_green/template.php" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_green/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/artline_store_red/css/commerce_kickstart_style.css" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/css/commerce_kickstart_style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/artline_store_red/template.php" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store_red/template.php" />
     </list>
     <ignored path="artline_commerce.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -233,6 +32,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="commerce_kickstart_style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/artline_store/css/commerce_kickstart_style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="730" column="0" selection-start-line="730" selection-start-column="0" selection-end-line="740" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -271,57 +80,24 @@
       <file leaf-file-name="commerce_kickstart_style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/artline_store_green/css/commerce_kickstart_style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="486" column="79" selection-start-line="486" selection-start-column="79" selection-end-line="486" selection-end-column="79" />
+            <state relative-caret-position="302">
+              <caret line="749" column="1" selection-start-line="749" selection-start-column="1" selection-end-line="749" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="commerce_kickstart_style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="commerce_kickstart_style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/artline_store_red/css/commerce_kickstart_style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="491" column="79" selection-start-line="491" selection-start-column="79" selection-end-line="491" selection-end-column="79" />
+            <state relative-caret-position="362">
+              <caret line="750" column="1" selection-start-line="750" selection-start-column="1" selection-end-line="750" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="artline.module" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/artline/artline.module">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="153" column="24" selection-start-line="153" selection-start-column="24" selection-end-line="153" selection-end-column="24" />
-              <folding>
-                <marker date="1479921512000" expanded="true" signature="4721:4725" ph="&lt;" />
-                <marker date="1479921512000" expanded="true" signature="4725:4729" ph="&lt;" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="commerce_kickstart_style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/artline_store/css/commerce_kickstart_style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="647" column="45" selection-start-line="647" selection-start-column="45" selection-end-line="647" selection-end-column="45" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="commerce_kickstart_theme_custom.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/artline_store_green/js/commerce_kickstart_theme_custom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin-dashboard.tpl.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="admin-dashboard.tpl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/artline/theme/admin-dashboard.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
@@ -329,6 +105,26 @@
               <folding>
                 <element signature="e#6#87#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/artline_store_green/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="23" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/artline_store_red/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -364,13 +160,15 @@
         <option value="$PROJECT_DIR$/sites/all/modules/custom/artline/artline.admin.inc" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/artline/lib/admin_panel/admin-panel.css" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/artline/artline.module" />
-        <option value="$PROJECT_DIR$/sites/all/themes/artline_store/css/commerce_kickstart_style.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/artline_store/artline_store.info" />
         <option value="$PROJECT_DIR$/sites/all/themes/artline_store_green/artline_store_green.info" />
         <option value="$PROJECT_DIR$/sites/all/themes/artline_store_red/artline_store_red.info" />
+        <option value="$PROJECT_DIR$/sites/all/modules/custom/artline/theme/admin-dashboard.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/artline_store_green/template.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/artline_store_red/template.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/artline_store/css/commerce_kickstart_style.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/artline_store_green/css/commerce_kickstart_style.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/artline_store_red/css/commerce_kickstart_style.css" />
-        <option value="$PROJECT_DIR$/sites/all/modules/custom/artline/theme/admin-dashboard.tpl.php" />
       </list>
     </option>
   </component>
@@ -505,6 +303,62 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artline_store_red" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artline_commerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artline_commerce" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artline_store_red" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artline_commerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artline_commerce" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -536,40 +390,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="artline" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artline_commerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artline_commerce" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sites" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="all" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="custom" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="artline" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="theme" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -671,12 +491,12 @@
       <workItem from="1479090313610" duration="41000" />
       <workItem from="1479090360007" duration="1914000" />
       <workItem from="1479634120594" duration="31677000" />
-      <workItem from="1479798931088" duration="24947000" />
+      <workItem from="1479798931088" duration="25331000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58579000" />
+    <option name="totallyTimeSpent" value="58963000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="731" extended-state="0" />
@@ -717,24 +537,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/modules/contrib/commerce/modules/cart/commerce_cart.module">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="1427" column="98" selection-start-line="1427" selection-start-column="9" selection-end-line="1427" selection-end-column="98" />
-          <folding>
-            <marker date="1471524656000" expanded="true" signature="31431:31536" ph="SELECT order... " />
-            <marker date="1471524656000" expanded="true" signature="32084:32215" ph="SELECT order... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/artline/js/jquery.nice-select.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/artline/lib/icheck/demo/js/zepto.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1066,14 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/artline_store/css/commerce_kickstart_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="647" column="45" selection-start-line="647" selection-start-column="45" selection-end-line="647" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/artline_store_green/js/commerce_kickstart_theme_custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1114,22 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/artline_store_green/css/commerce_kickstart_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="486" column="79" selection-start-line="486" selection-start-column="79" selection-end-line="486" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/artline_store_red/css/commerce_kickstart_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="491" column="79" selection-start-line="491" selection-start-column="79" selection-end-line="491" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/custom/artline/theme/admin-dashboard.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -1137,6 +915,46 @@
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/artline_store_green/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="23" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/artline_store_red/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/artline_store/css/commerce_kickstart_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="730" column="0" selection-start-line="730" selection-start-column="0" selection-end-line="740" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/artline_store_green/css/commerce_kickstart_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="749" column="1" selection-start-line="749" selection-start-column="1" selection-end-line="749" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/artline_store_red/css/commerce_kickstart_style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="750" column="1" selection-start-line="750" selection-start-column="1" selection-end-line="750" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
