@@ -5,6 +5,7 @@
  * Date: 11/23/16
  * Time: 11:33 PM
  */
+global $user;
 ?>
 <div id="admin-panel">
     <h2>Quản lý sản phẩm và nội dung bài viết</h2>
@@ -35,6 +36,9 @@
 
     <h2>Cấu hình website</h2>
     <ul>
+        <?php if(in_array('admins', $user->roles) || in_array('administrator',$user->roles)): ?>
+            <li class="user-logout"><a href="/admin/appearance">Thay đổi giao diện</a></li>
+        <?php endif; ?>
         <li class="user-logout"><a href="/admin/appearance/settings/artline_store">Thay đổi logo và Favicon </a></li>
         <li class="user-logout"><a href="/admin/config/content/artline">Quản lý fanpage</a></li>
         <li class="user-logout"><a href="/user/logout">Đăng xuất</a></li>
