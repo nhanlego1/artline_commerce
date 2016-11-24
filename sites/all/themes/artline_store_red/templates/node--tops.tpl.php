@@ -28,6 +28,7 @@
                     </div>
                 </div>
             </div>
+            <?php print render($content['product:field_old_price']) ?>
             <?php print render($content['product:commerce_price']) ?>
             <div class="body-wrapper">
                 <div class="less-body">
@@ -48,6 +49,17 @@
                 print drupal_render($form); ?>
             </div>
             <?php print render($content['service_links']); ?>
+            <!-- AddToAny BEGIN -->
+            <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                <a class="a2a_button_facebook"></a>
+                <a class="a2a_button_twitter"></a>
+                <a class="a2a_button_google_plus"></a>
+                <a class="a2a_button_pinterest"></a>
+                <a class="a2a_button_tumblr"></a>
+            </div>
+            <script async src="https://static.addtoany.com/menu/page.js"></script>
+            <!-- AddToAny END -->
 
             <?php
             // We hide the comments and links now so that we can render them later.
@@ -55,7 +67,7 @@
             hide($content['comments']);
             hide($content['links']);
             unset($content['field_product']);
-            // print render($content);
+            // dsm($content);
 
             ?>
         </div>
@@ -71,3 +83,7 @@
         <?php print render($content['comments']); ?>
     </div>
 </article>
+
+<div class="relate-product">
+    <?php print _get_category_relate($node->field_category[LANGUAGE_NONE][0]['tid'], $node->nid);?>
+</div>

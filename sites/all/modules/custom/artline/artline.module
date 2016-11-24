@@ -126,6 +126,21 @@ function _get_price_node($nid)
     $price = commerce_currency_format($product->commerce_price[LANGUAGE_NONE][0]['amount'], $product->commerce_price[LANGUAGE_NONE][0]['currency_code']);
     return $price;
 }
+/**
+ * get price of node
+ */
+function _get_old_price_node($nid)
+{
+    $node = node_load($nid);
+    $product = commerce_product_load($node->field_product[LANGUAGE_NONE][0]['product_id']);
+    if(isset($product->field_old_price[LANGUAGE_NONE]) && $product->field_old_price[LANGUAGE_NONE][0]['amount'] > 0){
+        $price = commerce_currency_format($product->field_old_price[LANGUAGE_NONE][0]['amount'], $product->commerce_price[LANGUAGE_NONE][0]['currency_code']);
+        return $price;
+    }else{
+        return false;
+    }
+
+}
 
 /**
  * Implementation of hook_block_info().
@@ -178,6 +193,11 @@ function artline_theme()
         'render element' => 'element',
         'path' => drupal_get_path('module', 'artline') . '/theme',
         'template' => 'category-detail',
+    );
+    $items['category_relate'] = array(
+        'render element' => 'element',
+        'path' => drupal_get_path('module', 'artline') . '/theme',
+        'template' => 'category-relate',
     );
     $items['admin_dashboard'] = array(
         'render element' => 'element',
@@ -249,17 +269,38 @@ function _get_category_child($tid)
 }
 
 /**
+ * get category parent
+ */
+function _get_category_relate($tid, $nid)
+{
+    drupal_add_js(drupal_get_path('module', 'artline') . '/js/owl.carousel.js');
+    drupal_add_css(drupal_get_path('module', 'artline') . '/css/owl.carousel.css');
+    drupal_add_css(drupal_get_path('module', 'artline') . '/css/owl.carousel.min.css');
+    drupal_add_js(drupal_get_path('module', 'artline') . '/js/artline.js');
+    $data = array();
+    $data = _get_nodes_taxonomy($tid, $nid);
+    return theme('category_relate', array('data' => $data));
+}
+
+/**
  * get node by taxonomy
  */
 
-function _get_nodes_taxonomy($tid)
+function _get_nodes_taxonomy($tid, $nid_current = null)
 {
     $nodes = taxonomy_select_nodes($tid);
     $data = array();
     if ($nodes) {
         foreach ($nodes as $nid) {
-            $data[] = node_load($nid);
+            if($nid){
+                if($nid_current != $nid){
+                    $data[] = node_load($nid);
+                }
+            }else{
+                $data[] = node_load($nid);
+            }
         }
+
     }
     if ($data) {
         return $data;

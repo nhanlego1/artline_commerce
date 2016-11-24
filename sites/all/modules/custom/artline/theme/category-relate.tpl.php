@@ -7,21 +7,14 @@
  */
 ?>
 
-<?php if ($terms): ?>
+<?php if ($data): ?>
     <div class="category-wrapper">
-        <?php foreach ($terms as $tid => $nodes): ?>
-            <?php $term = taxonomy_term_load($tid); ?>
-            <h3><?php print l($term->name, 'taxonomy/term/' . $term->tid) ?></h3>
-            <?php if (isset($term->field_image_banner[LANGUAGE_NONE])): ?>
-                <div class="image-banner-cate">
-                    <?php print theme('image_style', array('path' => $term->field_image_banner['und'][0]['uri'], 'style_name' => 'banner_cate')); ?>
-                </div>
-            <?php endif; ?>
-            <?php if ($nodes): ?>
+            <h3><?php print t('Các sản phẩm khác'); ?></h3>
+            <?php if ($nodes = $data): ?>
                 <div class="owl-carousel owl-theme">
                     <?php foreach ($nodes as $node): ?>
                         <div class="views-row grid-7">
-                            <?php if (isset($node->field_is_home[LANGUAGE_NONE]) && $node->field_is_home[LANGUAGE_NONE][0]['value'] == 1): ?>
+                            <?php if(isset($node->field_is_home[LANGUAGE_NONE]) && $node->field_is_home[LANGUAGE_NONE][0]['value']==1): ?>
                                 <div class="image-hot"></div>
                             <?php endif; ?>
                             <a href="<?php print url('node/' . $node->nid) ?>">
@@ -53,6 +46,6 @@
                     <?php endforeach; ?>
                 </div>
             <?php endif; ?>
-        <?php endforeach; ?>
+
     </div>
 <?php endif; ?>

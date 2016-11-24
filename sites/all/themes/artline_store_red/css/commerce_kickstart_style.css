@@ -509,7 +509,7 @@ label.option {
   font-size: 12px;
 }
 .views-row.grid-7{
-  border: 1px solid #eee;
+  border: 1px solid #aaa;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -614,11 +614,11 @@ h2.block-title {
   color:#666;
 }
 .field-name-field-product-images, .views-field-field-product-images{
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #aaa;
   margin-bottom: 10px;
 }
 .product-image-detail{
-  border-right: 1px solid #eee;
+  border: 1px solid #aaa;
 }
 .view-product-list h3, .category-wrapper h3{
   clear:both;
@@ -667,7 +667,7 @@ h2.block-title {
 }
 
 .cloud-zoom-gallery-thumbs img{
-  width: 60px!important;
+  width: 40px!important;
   height: auto;
 }
 .zone-footer-wrapper {
@@ -750,6 +750,39 @@ h2.block-title {
   position: absolute;
 }
 
+.node-product-type .product-image-detail .cloud-zoom-container .cloud-zoom-gallery-thumbs{
+  float: left!important;
+  border-top: 1px solid #aaa;
+  width: 98%;
+  padding-left: 10px;
+}
+
+.image-banner-cate{
+  margin-bottom: 20px;
+}
+
+.field-name-field-old-price{
+  font-size: 18px;
+  margin-top: 10px;
+  text-decoration: line-through;
+}
+.views-field-php-1, a .views-field-php-1{
+  font-size: 16px;
+  text-decoration: line-through;
+  color: #333;
+}
+
+.relate-product h3{
+  width: 97.5%;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 3px;
+}
+.a2a_kit{
+  margin-top: 10px;
+  float: left;
+  width: 100%;
+  margin-left: 20px;
+}
 
 @media print {
   #zone-footer{

@@ -30,6 +30,9 @@
                                 <div class="views-field views-field-title">
                                     <span class="field-content"><?php print $node->title ?></span>
                                 </div>
+                                <div class="views-field views-field-php-1">
+                                    <span class="field-content"><?php print _get_old_price_node($node->nid) ?></span>
+                                </div>
                                 <div class="views-field views-field-php">
                                     <span class="field-content"><?php print _get_price_node($node->nid) ?></span>
                                 </div>
