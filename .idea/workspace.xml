@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ca18235-a9af-4753-ad8d-fd9a7a40faef" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artline_commerce.iml" afterPath="$PROJECT_DIR$/.idea/artline_commerce.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="0ca18235-a9af-4753-ad8d-fd9a7a40faef" name="Default" comment="" />
     <ignored path="artline_commerce.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -54,11 +51,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="commerce_kickstart_style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="commerce_kickstart_style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/artline_store_green/css/commerce_kickstart_style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="302">
               <caret line="749" column="1" selection-start-line="749" selection-start-column="1" selection-end-line="749" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registry_rebuild.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/registry_rebuild.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3118">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -500,12 +507,12 @@
       <workItem from="1479090313610" duration="41000" />
       <workItem from="1479090360007" duration="1914000" />
       <workItem from="1479634120594" duration="31677000" />
-      <workItem from="1479798931088" duration="26137000" />
+      <workItem from="1479798931088" duration="26227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59769000" />
+    <option name="totallyTimeSpent" value="59859000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="731" extended-state="0" />
@@ -546,16 +553,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/profiles/commerce_kickstart/modules/contrib/pathauto/pathauto.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="783">
-          <caret line="728" column="0" selection-start-line="728" selection-start-column="0" selection-end-line="728" selection-end-column="0" />
-          <folding>
-            <marker date="1479959587000" expanded="true" signature="2207:2334" ph="SELECT pid F... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/artline_store/templates/node--tops.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -964,6 +961,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="749" column="1" selection-start-line="749" selection-start-column="1" selection-end-line="749" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registry_rebuild.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3118">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
