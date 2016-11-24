@@ -514,12 +514,12 @@ label.option {
   margin-bottom: 30px;
 }
 .views-row.grid-7 .views-field-title{
-  color: #AA0000;
+  color: #333;
   font-weight: bold;
   font-size: 14px;
 }
 .views-row.grid-7 .views-field-title a, .views-field-title-field a{
-  color: #AA0000;
+  color: #333;
   font-weight: bold;
   font-size: 14px;
 }

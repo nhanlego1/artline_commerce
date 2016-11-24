@@ -513,14 +513,14 @@ label.option {
   font-size: 14px;
 }
 .views-row.grid-7 .views-field-title a, .views-field-title-field a{
-  color: #336699;
+  color: #333;
   font-weight: bold;
   font-size: 14px;
 }
 .views-row.grid-7 .views-field-php{
   font-weight: bold;
   font-size: 18px;
-  color: #AA0000;
+  color: #333;
   margin: 10px 5px;
 }
 
