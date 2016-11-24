@@ -91,7 +91,7 @@
         radioClass: 'iradio_square-blue',
         increaseArea: '20%' // optional
       });
-      $('select').niceSelect();
+      $('.add-to-cart-detail select').niceSelect();
 
       //set chow hide checkbox
       $("span.color-label").each(function(){

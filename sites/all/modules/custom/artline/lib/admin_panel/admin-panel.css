@@ -8,6 +8,9 @@ Admin Panel Styling
 #admin-panel {
 width: 45%;
 	float: left;
+	border: 1px solid #aaa;
+	padding: 5px;
+	margin: 5px;
 }
 #admin-panel #title {
 	margin-bottom: 20px;

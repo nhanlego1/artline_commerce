@@ -772,6 +772,86 @@ h2.block-title {
   width: 100%;
   margin-left: 20px;
 }
+
+
+
+button, input[type="reset"], input[type="submit"], input[type="button"],
+button:hover, input[type="reset"]:hover, input[type="submit"]:hover, input[type="button"]:hover{
+  background: #336699;
+  border-radius: 0;
+  padding: 10px;
+  color: #fff;
+  border: 0;
+}
+#slideshow-node-form .form-wrapper{
+  width: 42%;
+  float: left;
+  margin-left: 10px;
+  background: #eee;
+  padding: 10px;
+  min-height: 160px;
+  margin-bottom: 20px;
+}
+#slideshow-node-form .vertical-tabs-panes{
+  display: none;
+}
+#slideshow-node-form .form-actions.form-wrapper{
+  background: none;
+  min-height: 20px;
+  border: 0;
+  clear: both;
+  float: none;
+}
+#slideshow-node-form .form-wrapper input[type="text"]{
+  border: 1px solid #aaa;
+  background: #fff;
+  color:#000;
+}
+
+#tops-node-form .field-name-field-product-images{
+  border: 1px solid #aaa;
+  padding: 10px;
+}
+.field-type-commerce-product-reference {
+  margin-left: 10px;
+  background: #eee;
+  padding: 10px;
+  border: 1px solid #aaa;
+}
+#edit-field-product-und-form-field-images-und,
+.form-item-field-product-und-form-status,
+.field-type-commerce-price,
+.form-item-field-product-und-form-sku,
+#edit-field-product-und-form-product-attributes{
+  border: 1px solid #999;
+  padding: 10px;
+}
+#edit-field-is-home{
+  border: 1px solid #999;
+  padding: 10px;
+  width: 97%;
+  margin-left: 10px;
+  margin-top: 10px;
+  background: #eee;
+}
+#tops-node-form .vertical-tabs-panes{
+  margin-top: 10px;
+  border: 1px solid #999;
+  width: 97%;
+  margin-left: 10px;
+  padding: 10px;
+}
+#taxonomy-form-term .form-item{
+  margin-top: 10px;
+  border: 1px solid #999;
+  width: 50%;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+
+
+
 @media print {
   #zone-footer{
     display: none;
