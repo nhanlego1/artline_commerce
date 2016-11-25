@@ -60,8 +60,7 @@ body {
 /**********************************************
 * 2.1. Zone user
 **********************************************/
-.zone-user-wrapper {
-  background-color: #336699; }
+
 
 /*******************************************
 * 2.1.1. Region user first
@@ -423,11 +422,7 @@ div.messages.commerce-add-to-cart-confirmation {
 .zone-branding .region-branding {
   margin: 55px 0 0px 0!important;
 }
-#block-nice-menus-1 ul.nice-menu-down li {
-   background: #336699;
-   padding: 5px;
-   text-align: center;
- }
+
 #block-nice-menus-1 ul.nice-menu-down li a{
   color:#fff;
   font-weight: 500;
@@ -451,23 +446,13 @@ ul.nice-menu-down li ul li ul {
   display: none;
 }
 .node-product-type .commerce-product-sku {
-  color: #336699;
+  color: #333;
   font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: bold;
 }
-.node-product-type .field-name-commerce-price {
-  font-family: "Open Sans", sans-serif;
-  font-size: 30px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  color: #336699;
-}
-.product-info-detail h2, h3{
-  font-size: 20px;
-  color: #336699;
-  margin-bottom: 10px;
-}
+
+
 .add-to-cart-detail{
   margin-top: 20px;
 }
@@ -480,17 +465,7 @@ ul.nice-menu-down li ul li ul {
   clear: both;
   width: 100%;
 }
-#artline-form-add-to-cart #edit-submit{
-  margin-top: 20px;
-  border: 1px solid #50adf5 ;
-  background: url('../images/bg_add_to_cart.png') no-repeat left center #50adf5;
-  padding: 5px 10px 5px 30px ;
-  box-shadow: 0 1px 1px #18466b;
-  color: #fff;
-  text-shadow: 0 1px 1px #18466b;
-  font: normal 500 15px/1.75em "Open Sans",Arial,sans-serif;
-  margin-left: 10px;
-}
+
 .message-inner .added-product-title{
   display: none;
 }
@@ -573,13 +548,7 @@ span.title-buy{
   padding: 0;
   width: 70px;
 }
-h2.block-title {
-  font-size: 22px;
-  margin: 0;
-  margin-bottom: 30px;
-  margin-left: 10px;
-  color: #336699;
-}
+
 
 .section-footer ul.menu, .section-footer ul.menu li {
   list-style: none;
@@ -783,7 +752,7 @@ button:hover, input[type="reset"]:hover, input[type="submit"]:hover, input[type=
   color: #fff;
   border: 0;
 }
-#slideshow-node-form .form-wrapper{
+form#slideshow-node-form .form-wrapper{
   width: 42%;
   float: left;
   margin-left: 10px;
@@ -792,41 +761,41 @@ button:hover, input[type="reset"]:hover, input[type="submit"]:hover, input[type=
   min-height: 160px;
   margin-bottom: 20px;
 }
-#slideshow-node-form .vertical-tabs-panes{
+form#slideshow-node-form .vertical-tabs-panes{
   display: none;
 }
-#slideshow-node-form .form-actions.form-wrapper{
+form#slideshow-node-form .form-actions.form-wrapper{
   background: none;
   min-height: 20px;
   border: 0;
   clear: both;
   float: none;
 }
-#slideshow-node-form .form-wrapper input[type="text"]{
+form#slideshow-node-form .form-wrapper input[type="text"]{
   border: 1px solid #aaa;
   background: #fff;
   color:#000;
 }
 
-#tops-node-form .field-name-field-product-images{
+form#tops-node-form .field-name-field-product-images{
   border: 1px solid #aaa;
   padding: 10px;
 }
-.field-type-commerce-product-reference {
+form .field-type-commerce-product-reference {
   margin-left: 10px;
   background: #eee;
   padding: 10px;
   border: 1px solid #aaa;
 }
-#edit-field-product-und-form-field-images-und,
-.form-item-field-product-und-form-status,
-.field-type-commerce-price,
-.form-item-field-product-und-form-sku,
-#edit-field-product-und-form-product-attributes{
+form #edit-field-product-und-form-field-images-und,
+form .form-item-field-product-und-form-status,
+form .field-type-commerce-price,
+form .form-item-field-product-und-form-sku,
+form #edit-field-product-und-form-product-attributes{
   border: 1px solid #999;
   padding: 10px;
 }
-#edit-field-is-home{
+form #edit-field-is-home{
   border: 1px solid #999;
   padding: 10px;
   width: 97%;
@@ -834,14 +803,14 @@ button:hover, input[type="reset"]:hover, input[type="submit"]:hover, input[type=
   margin-top: 10px;
   background: #eee;
 }
-#tops-node-form .vertical-tabs-panes{
+form#tops-node-form .vertical-tabs-panes{
   margin-top: 10px;
   border: 1px solid #999;
   width: 97%;
   margin-left: 10px;
   padding: 10px;
 }
-#taxonomy-form-term .form-item{
+form#taxonomy-form-term .form-item{
   margin-top: 10px;
   border: 1px solid #999;
   width: 50%;
@@ -849,6 +818,11 @@ button:hover, input[type="reset"]:hover, input[type="submit"]:hover, input[type=
   padding: 10px;
 }
 
+.product-info-detail h3{
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
 
 
 
@@ -1044,4 +1018,53 @@ float: right;
     outline: none;
   }
 }
+/*add color to site*/
 
+.zone-user-wrapper {
+  background-color: #336699;
+}
+
+#block-nice-menus-1 ul.nice-menu-down li {
+  background: #336699;
+  padding: 5px;
+  text-align: center;
+}
+
+h2.block-title {
+  font-size: 22px;
+  margin: 0;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.category-wrapper h3 a {
+  color: #336699;
+}
+
+.product-info-detail h2{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.commerce-product-sku span {
+  font-weight: bolder;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.node-product-type .field-name-commerce-price {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#artline-form-add-to-cart #edit-submit{
+  margin-top: 20px;
+  background: url('../images/bg_add_to_cart.png') no-repeat left center ;
+  padding: 5px 10px 5px 30px ;
+  box-shadow: 0 1px 1px #18466b;
+  color: #fff;
+  text-shadow: 0 1px 1px #18466b;
+  font: normal 500 15px/1.75em "Open Sans",Arial,sans-serif;
+  margin-left: 10px;
+}

@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class="add-to-cart-detail">
-                <h2>Đặt mua sản phẩm</h2>
+                <h3>Đặt mua sản phẩm</h3>
                 <span class="title-buy"><?php print t('Vui lòng chọn màu và số lượng.') ?></span>
                 <div class="clearfix"></div>
                 <?php $form_state['build_info']['args'] = array($node);

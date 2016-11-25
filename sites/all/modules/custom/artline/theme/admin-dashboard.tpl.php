@@ -37,11 +37,11 @@ global $user;
     <h2>Cấu hình website</h2>
     <ul>
         <?php if(in_array('admin', $user->roles) || in_array('administrator',$user->roles)): ?>
-            <li class="user-logout"><a href="/admin/appearance">Thay đổi giao diện</a></li>
+            <li class="user-logout"><a href="/admin/appearance/settings/artline_store">Thay đổi giao diện, logo, favicon</a></li>
             <li class="user-logout"><a href="/admin/config/system/googleanalytics">Quản lý google analytics</a></li>
 
         <?php endif; ?>
-        <li class="user-logout"><a href="/admin/appearance/settings/artline_store">Thay đổi logo và Favicon </a></li>
+<!--        <li class="user-logout"><a href="/admin/appearance/settings/artline_store">Thay đổi logo và Favicon </a></li>-->
         <li class="user-logout"><a href="/admin/config/content/artline">Quản lý fanpage</a></li>
         <li class="user-logout"><a href="/user/logout">Đăng xuất</a></li>
     </ul>
