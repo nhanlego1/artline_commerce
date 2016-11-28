@@ -30,16 +30,7 @@
             </div>
             <?php print render($content['product:field_old_price']) ?>
             <?php print render($content['product:commerce_price']) ?>
-            <div class="body-wrapper">
-                <div class="less-body">
-                    <h3>Thông tin sản phẩm</h3>
-                    <?php print render($content['body']); ?>
-                </div>
-                <div class="more-less">
-                    <a class="show" href="#">+ Xem thêm</a>
-                    <a class="less" style="display: none;" href="#">-- Thu gọn</a>
-                </div>
-            </div>
+
             <div class="add-to-cart-detail">
                 <h3>Đặt mua sản phẩm</h3>
                 <span class="title-buy"><?php print t('Vui lòng chọn màu và số lượng.') ?></span>
@@ -72,6 +63,10 @@
             ?>
         </div>
 
+    </div>
+    <div class="grid-24 body-wrapper">
+            <h3>Thông tin sản phẩm</h3>
+            <?php print render($content['body']); ?>
     </div>
 
 

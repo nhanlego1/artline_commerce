@@ -316,8 +316,14 @@ function _trim_character($content, $num = 200)
 {
     if ($content) {
         $content = strip_tags($content);
-        $pos = strpos($content, ' ', $num);
-        return substr($content, 0, $pos);
+        if(strpos($content, ' ', $num) != null){
+            $pos = strpos($content, ' ', $num);
+            return substr($content, 0, $pos);
+        }else{
+            return substr($content, 0, $num);
+        }
+
+
     } else {
         return '';
     }

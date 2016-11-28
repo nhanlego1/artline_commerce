@@ -1076,3 +1076,11 @@ h2.block-title {
 .owl-carousel:last-child{
   border-bottom: 0px solid #aaa;
 }
+
+.grid-24.body-wrapper{
+  margin-top: 20px;
+}
+.grid-24.body-wrapper h3{
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 10px;
+}
