@@ -250,13 +250,13 @@ function get_category_page($tid)
 function _get_category_parent($tid)
 {
     $term = taxonomy_term_load($tid);
-    $children = taxonomy_get_children($tid);
-    $data = array();
-    if ($children) {
-        foreach ($children as $child) {
-            $data[$child->tid] = _get_nodes_taxonomy($child->tid);
-        }
-    }
+//    $children = taxonomy_get_children($tid);
+//    $data = array();
+//    if ($children) {
+//        foreach ($children as $child) {
+            $data[$tid] = _get_nodes_taxonomy($tid);
+//        }
+//    }
 
     if ($data) {
         return theme('category_parent', array('terms' => $data));
