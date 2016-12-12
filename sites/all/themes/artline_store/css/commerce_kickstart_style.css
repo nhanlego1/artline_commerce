@@ -1084,3 +1084,7 @@ h2.block-title {
   border-bottom: 1px solid #aaa;
   padding-bottom: 10px;
 }
+
+h3 a {
+  color: #336699;
+}

@@ -11,7 +11,7 @@
     <div class="category-wrapper">
 
             <?php $term = $data['term']; ?>
-            <h3><?php print l($term->name, 'taxonomy/term/' . $term->tid) ?></h3>
+<!--            <h3>--><?php //print l($term->name, 'taxonomy/term/' . $term->tid) ?><!--</h3>-->
             <?php if ($nodes = $data['nodes']): ?>
                 <div class="view-content">
                     <?php foreach ($nodes as $node): ?>

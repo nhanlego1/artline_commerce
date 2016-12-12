@@ -234,25 +234,7 @@ function get_category_page($tid)
         $children = taxonomy_get_children($tid);
         if ($children) {
             foreach ($children as $child) {
-                if(taxonomy_select_nodes($child->tid)){
-                    $data[] = _get_category_child($child->tid);
-                }else{
                     $data[] = _get_category_parent($child->tid);
-                }
-            }
-        }
-    }elseif(taxonomy_get_parents($tid) && taxonomy_get_children($tid)){
-        if(taxonomy_select_nodes($tid)){
-            $data[] = _get_category_child($tid);
-        }
-        $children = taxonomy_get_children($tid);
-        if ($children) {
-            foreach ($children as $child) {
-                if(taxonomy_select_nodes($child->tid)){
-                    $data[] = _get_category_child($child->tid);
-                }else{
-                    $data[] = _get_category_parent($child->tid);
-                }
             }
         }
     }

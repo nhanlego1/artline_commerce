@@ -122,7 +122,7 @@
       $("#block-nice-menus-1 ul.nice-menu-down li").css("background",color_);
       $(".zone-user-wrapper").css("background-color",color_);
       $("h2.block-title").css("color",color_);
-      $(".category-wrapper h3 a").css("color",color_);
+      $("h3 a").css("color",color_);
       $(".product-info-detail h2").css("color",color_);
       $(".commerce-product-sku span").css("color",color_);
       $(".node-product-type .field-name-commerce-price").css("color",color_);
