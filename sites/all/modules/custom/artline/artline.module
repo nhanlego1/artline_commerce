@@ -234,7 +234,7 @@ function get_category_page($tid)
         $children = taxonomy_get_children($tid);
         if ($children) {
             foreach ($children as $child) {
-                    $data[] = _get_category_parent($child->tid);
+                    $data[] = _get_category_child($child->tid);
             }
         }
     }
