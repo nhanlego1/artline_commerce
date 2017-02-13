@@ -24,7 +24,7 @@
             <div class="commerce-product-extra-field commerce-product-extra-field-sku node-38-product-sku">
                 <div class="commerce-product-sku">
                     <div class="commerce-product-sku-label">
-                        Mã sản phẩm: <span><?php print render($content['field_product_code']) ?></span>
+                        Mã sản phẩm: <span><?php print $node->field_product_code[LANGUAGE_NONE][0]['value'] ?></span>
                     </div>
                 </div>
             </div>

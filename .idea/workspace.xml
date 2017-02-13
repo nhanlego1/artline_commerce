@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ca18235-a9af-4753-ad8d-fd9a7a40faef" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/libraries/cloud-zoom/cloud-zoom.1.0.3.js" afterPath="$PROJECT_DIR$/sites/all/libraries/cloud-zoom/cloud-zoom.1.0.3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/libraries/cloud-zoom/cloud-zoom.1.0.3.min.js" afterPath="$PROJECT_DIR$/sites/all/libraries/cloud-zoom/cloud-zoom.1.0.3.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/modules/contrib/cloud_zoom/css/cloud_zoom.css" afterPath="$PROJECT_DIR$/sites/all/modules/contrib/cloud_zoom/css/cloud_zoom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/artline_store/templates/node--tops.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/artline_store/templates/node--tops.tpl.php" />
     </list>
     <ignored path="artline_commerce.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,7 +62,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cloud-zoom.1.0.3.min.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cloud-zoom.1.0.3.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/libraries/cloud-zoom/cloud-zoom.1.0.3.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -89,12 +87,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="node--tops.tpl.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="node--tops.tpl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/artline_store/templates/node--tops.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="385">
-              <caret line="26" column="93" selection-start-line="26" selection-start-column="93" selection-end-line="26" selection-end-column="93" />
-              <folding />
+              <caret line="26" column="105" selection-start-line="26" selection-start-column="105" selection-end-line="26" selection-end-column="105" />
+              <folding>
+                <marker date="1486995999000" expanded="true" signature="1464:1561" ph="..." />
+                <marker date="1486995999000" expanded="true" signature="2037:2394" ph="..." />
+                <marker date="1486995999000" expanded="true" signature="2891:2972" ph="..." />
+                <marker date="1486995999000" expanded="true" signature="3024:3059" ph="..." />
+                <marker date="1486995999000" expanded="true" signature="3302:3380" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,10 +190,10 @@
         <option value="$PROJECT_DIR$/sites/all/modules/custom/artline/theme/category-page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/custom/artline/artline.module" />
         <option value="$PROJECT_DIR$/sites/all/themes/artline_store/css/commerce_kickstart_style.css" />
-        <option value="$PROJECT_DIR$/sites/all/themes/artline_store/templates/node--tops.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/contrib/cloud_zoom/css/cloud_zoom.css" />
         <option value="$PROJECT_DIR$/sites/all/libraries/cloud-zoom/cloud-zoom.1.0.3.js" />
         <option value="$PROJECT_DIR$/sites/all/libraries/cloud-zoom/cloud-zoom.1.0.3.min.js" />
+        <option value="$PROJECT_DIR$/sites/all/themes/artline_store/templates/node--tops.tpl.php" />
       </list>
     </option>
   </component>
@@ -743,12 +747,12 @@
       <workItem from="1481614768752" duration="134000" />
       <workItem from="1481615669008" duration="272000" />
       <workItem from="978307282340" duration="166000" />
-      <workItem from="1486994514403" duration="1273000" />
+      <workItem from="1486994514403" duration="1401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82245000" />
+    <option name="totallyTimeSpent" value="82373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="729" extended-state="6" />
@@ -1114,14 +1118,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/artline_store/templates/node--tops.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="26" column="93" selection-start-line="26" selection-start-column="93" selection-end-line="26" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/contrib/cloud_zoom/css/cloud_zoom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1164,6 +1160,20 @@
             <marker date="1486995865000" expanded="true" signature="4105:4218" ph="..." />
             <marker date="1486995865000" expanded="true" signature="4916:4981" ph="..." />
             <marker date="1486995865000" expanded="true" signature="6617:6656" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/artline_store/templates/node--tops.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="26" column="105" selection-start-line="26" selection-start-column="105" selection-end-line="26" selection-end-column="105" />
+          <folding>
+            <marker date="1486995999000" expanded="true" signature="1464:1561" ph="..." />
+            <marker date="1486995999000" expanded="true" signature="2037:2394" ph="..." />
+            <marker date="1486995999000" expanded="true" signature="2891:2972" ph="..." />
+            <marker date="1486995999000" expanded="true" signature="3024:3059" ph="..." />
+            <marker date="1486995999000" expanded="true" signature="3302:3380" ph="..." />
           </folding>
         </state>
       </provider>
