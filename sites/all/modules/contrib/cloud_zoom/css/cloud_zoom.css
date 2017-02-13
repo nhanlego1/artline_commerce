@@ -1,10 +1,7 @@
 /* Display image bellow Drupal overlay.*/
 .cloud-zoom-container #wrap {
-  z-index: 5 !important;
+  z-index: 499 !important;
 }
 .cloud-zoom-gallery-thumbs {
   clear:left;
-}
-.mousetrap{
-  z-index: 0!important;
 }
