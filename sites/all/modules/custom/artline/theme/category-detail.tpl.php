@@ -15,6 +15,7 @@
             <?php if ($nodes = $data['nodes']): ?>
                 <div class="view-content">
                     <?php foreach ($nodes as $node): ?>
+                        <?php if($node): ?>
                         <div class="views-row grid-7">
                             <?php if(isset($node->field_is_home[LANGUAGE_NONE]) && $node->field_is_home[LANGUAGE_NONE][0]['value']==1): ?>
                                 <div class="image-hot"></div>
@@ -45,6 +46,7 @@
                                 </div>
                             </a>
                         </div>
+                    <?php endif; ?>
                     <?php endforeach; ?>
                 </div>
             <?php endif; ?>
