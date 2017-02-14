@@ -313,12 +313,14 @@ function _get_nodes_taxonomy($tid, $nid_current = null)
     $data = array();
     if ($nodes) {
         foreach ($nodes as $nid) {
-            if($nid){
+            if($nid && node_load($nid)){
                 if($nid_current != $nid){
                     $data[] = node_load($nid);
                 }
             }else{
-                $data[] = node_load($nid);
+                if(node_load($nid)){
+                    $data[] = node_load($nid);
+                }
             }
         }
 
