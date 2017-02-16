@@ -402,7 +402,7 @@ function taxonomy_overview_terms($form, &$form_state, $vocabulary) {
   $form['#forward_step'] = $forward_step;
   $form['#empty_text'] = t('No terms available. <a href="@link">Add term</a>.', array('@link' => url('admin/structure/taxonomy/' . $vocabulary->machine_name . '/add')));
 
-  if ($vocabulary->hierarchy < 2 && count($tree) > 1) {
+//  if ($vocabulary->hierarchy < 2 && count($tree) > 1) {
     $form['actions'] = array('#type' => 'actions', '#tree' => FALSE);
     $form['actions']['submit'] = array(
       '#type' => 'submit',
@@ -413,7 +413,7 @@ function taxonomy_overview_terms($form, &$form_state, $vocabulary) {
       '#value' => t('Reset to alphabetical')
     );
     $form_state['redirect'] = array($_GET['q'], (isset($_GET['page']) ? array('query' => array('page' => $_GET['page'])) : array()));
-  }
+ // }
 
   return $form;
 }
