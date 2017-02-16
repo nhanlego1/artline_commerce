@@ -1088,3 +1088,6 @@ h2.block-title {
 h3 a {
   color: #336699;
 }
+.field-name-field-short-desc{
+  padding: 5px;
+}
