@@ -46,6 +46,7 @@ function artline_init()
     drupal_add_js(drupal_get_path('module', 'artline') . '/js/jquery.nice-select.js');
     drupal_add_css(drupal_get_path('module', 'artline') . '/css/nice-select.css');
     drupal_add_css(drupal_get_path('module', 'artline') . '/lib/icheck/skins/all.css');
+    drupal_add_css(drupal_get_path('module', 'artline') . '/css/admin.css');
 }
 
 /**
@@ -309,7 +310,7 @@ function _get_category_relate($tid, $nid)
 
 function _get_nodes_taxonomy($tid, $nid_current = null)
 {
-    $nodes = taxonomy_select_nodes($tid);
+    $nodes = taxonomy_select_nodes($tid, $pager = FALSE, $limit = FALSE);
     $data = array();
     if ($nodes) {
         foreach ($nodes as $nid) {

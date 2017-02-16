@@ -8,11 +8,9 @@
       <library name="PHARS">
         <CLASSES>
           <root url="phar://$MODULE_DIR$/profiles/commerce_kickstart/libraries/yotpo-php/yotpo.phar/" />
-          <root url="phar://$MODULE_DIR$/sites/all/libraries/yotpo-php/yotpo.phar/" />
         </CLASSES>
         <SOURCES>
           <root url="phar://$MODULE_DIR$/profiles/commerce_kickstart/libraries/yotpo-php/yotpo.phar/" />
-          <root url="phar://$MODULE_DIR$/sites/all/libraries/yotpo-php/yotpo.phar/" />
         </SOURCES>
       </library>
     </orderEntry>
