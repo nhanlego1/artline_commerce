@@ -44,7 +44,7 @@
                                 <div class="field field-name-body field-type-text-with-summary field-label-hidden">
                                     <div class="field-items">
                                         <div class="field-item">
-                                            <?php print _trim_character($node->body[LANGUAGE_NONE][0]['value'], 100); ?>
+                                            <?php print _trim_character($node->field_short_desc[LANGUAGE_NONE][0]['value'], 100); ?>
                                         </div>
                                     </div>
                                 </div>
