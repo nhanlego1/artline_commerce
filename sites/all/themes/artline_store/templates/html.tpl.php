@@ -4,6 +4,7 @@
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>  
   <?php print $styles; ?>
+  <link rel='stylesheet' id='font-awesome-css'  href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css?ver=3.2.1' type='text/css' media='all' />
   <?php print $scripts; ?>
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>

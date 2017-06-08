@@ -96,7 +96,6 @@
       //set chow hide checkbox
       $("span.color-label").each(function(){
         var color_ = $(this).attr('data');
-        console.log('nhan');
         $(this).css('background',color_)
       });
 
@@ -119,14 +118,21 @@
   Drupal.behaviors.ArtlineColor = {
     attach:function (context, settings) {
       var color_ = $("body").attr('data');
-      $("#block-nice-menus-1 ul.nice-menu-down li").css("background",color_);
-      $(".zone-user-wrapper").css("background-color",color_);
-      $("h2.block-title").css("color",color_);
-      $("h3 a").css("color",color_);
-      $(".product-info-detail h2").css("color",color_);
-      $(".commerce-product-sku span").css("color",color_);
-      $(".node-product-type .field-name-commerce-price").css("color",color_);
-      $("#artline-form-add-to-cart #edit-submit").css("background-color",color_);
+     // $("#block-nice-menus-1 ul.nice-menu-down li").css("background",color_);
+      //$(".zone-user-wrapper").css("background-color",color_);
+    //  $("h2.block-title").css("color",color_);
+    //  $("h3 a").css("color",color_);
+    //  $(".product-info-detail h2").css("color",color_);
+    //  $(".commerce-product-sku span").css("color",color_);
+    //  $(".node-product-type .field-name-commerce-price").css("color",color_);
+    //  $("#artline-form-add-to-cart #edit-submit").css("background-color",color_);
+    
+    
+    //add menu show mobile
+    $(".menu-sub-mobile .toggler-mobile").click(function(){
+       $(".block-menu-menu-user-menu").toggle();  
+    });
+    
     }
   }
 })(jQuery);

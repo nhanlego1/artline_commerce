@@ -6,6 +6,7 @@ screenshot = screenshot.png
 base theme = omega_kickstart
 
 scripts[] = js/commerce_kickstart_theme_custom.js
+stylesheets[all][] = css/font-awesome.css
 
 ; REQUIRED CORE REGIONS
 

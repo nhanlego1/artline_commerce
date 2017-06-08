@@ -168,12 +168,18 @@ input[type="text"],
 input[type="time"],
 input[type="url"],
 input[type="week"] {
-  background: #fbfafa;
-  border: 1px solid #e0e0e0;
-  color: #4c4c4c;
+ background-color: #fff;
+    border: 1px solid #e5e5e5;
+    box-shadow: 4px 4px 5px rgba(0,0,0,0.06) inset;
+    -webkit-transition: border linear .2s,box-shadow linear .2s;
+    -moz-transition: border linear .2s,box-shadow linear .2s;
+    -o-transition: border linear .2s,box-shadow linear .2s;
+    transition: border linear .2s,box-shadow linear .2s;
   margin: 1px;
   max-width: 100%;
-  padding: 0px 5px; }
+  padding: 0px 5px;
+  height: 36px;
+}
 
 select {
   height: inherit;
@@ -208,7 +214,7 @@ select {
 **********************************************/
 .zone-user-wrapper {
   background-color: #888888;
-  height: 34px;
+  height: 40px;
   width: 100%; }
 
 .zone-user {
@@ -246,14 +252,15 @@ select {
       right: 50%; }
       .block-menu-user-menu .content ul.menu li a {
         display: block;
-        color: white;
+        color: #a1877e;
         font-family: "Open Sans", sans-serif;
-        font-weight: 400;
+        font-weight: 500;
         -moz-border-radius: 4px;
         -webkit-border-radius: 4px;
         -khtml-border-radius: 4px;
         border-radius: 4px;
         padding: 5px 6px;
+        font-size: 16px;
         text-decoration: none; }
         .block-menu-user-menu .content ul.menu li a.active {
           text-decoration: underline; }

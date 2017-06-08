@@ -4,7 +4,7 @@
         attach: function (context, settings) {
             if(screen.width <= 1024 && screen.width >= 768){
                 $('.owl-carousel').owlCarousel({
-                    items:2,
+                    items:3,
                     nav: true,
                     navigationText: [
                         "<i class='icon-chevron-left icon-white'><</i>",
@@ -22,7 +22,7 @@
                 });
             }else{
                 $('.owl-carousel').owlCarousel({
-                    items:4,
+                    items:5,
                     nav: true,
                     navigationText: [
                         "<i class='icon-chevron-left icon-white'><</i>",

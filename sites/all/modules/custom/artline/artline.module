@@ -150,6 +150,7 @@ function artline_block_info()
 {
     $blocks = array();
     $blocks['artline_fanpage'] = array('info' => t('Artline Fanpage'));
+    $blocks['artline_menu'] = array('info' => t('Artline Menu Mobile'));
     $blocks['back_admin'] = array('info' => t('Backtoadmin'));
     return $blocks;
 }
@@ -170,6 +171,12 @@ function artline_block_view($delta = '')
         case 'back_admin':
             return array(
                 'content' => '<div class="admin-dashboard-back"><a href="/admin/dashboard">&lt;&lt; Back to dashboard</a></div>',
+            );
+
+            break;
+          case 'artline_menu':
+            return array(
+                'content' => '<div class="menu-sub-mobile"><span class="toggler-mobile">☰ Top</span></div>',
             );
 
             break;

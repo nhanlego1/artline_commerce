@@ -1,0 +1,46 @@
+name = Store Theme
+description = ''
+package = Commerce Kickstart
+core = 7.x
+screenshot = screenshot.png
+;base theme = omega_kickstart
+
+;scripts[] = js/commerce_kickstart_theme_custom.js
+
+; REQUIRED CORE REGIONS
+
+regions[page_top] = Page Top
+regions[page_bottom] = Page Bottom
+regions[content] = Content
+
+; ADDITIONAL REGIONS
+
+regions[user_first] = User Bar First
+regions[user_second] = User Bar Second
+
+regions[branding] = Branding
+regions[menu] = Menu
+regions[breadcrumb] = Breadcrumb
+
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+
+regions[header_first] = Header First
+regions[header_second] = Header Second
+
+regions[preface_first] = Preface First
+regions[preface_second] = Preface Second
+regions[preface_third] = Preface Third
+
+regions[postscript_first] = Postscript First
+regions[postscript_second] = Postscript Second
+regions[postscript_third] = Postscript Third
+
+regions[footer_first] = Footer First
+regions[footer_second] = Footer Second
+regions[footer_third] = Footer Third
+
+regions[footer2_first] = Footer2 First
+regions[footer2_second] = Footer2 Second
+
+
