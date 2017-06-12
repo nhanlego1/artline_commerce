@@ -15,7 +15,7 @@
   Drupal.behaviors.bodyReadMore = {
     attach: function ( context, settings ) {
       var readmore = Drupal.t('read more');
-      var readless = Drupal.t('read less');
+      var readless = Drupal.t('Thu gọn');
       $('.node-product-type .field-name-body .field-item').expander({
         slicePoint: 200,
         expandPrefix: '...<br />',

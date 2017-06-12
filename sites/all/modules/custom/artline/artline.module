@@ -152,6 +152,10 @@ function artline_block_info()
     $blocks['artline_fanpage'] = array('info' => t('Artline Fanpage'));
     $blocks['artline_menu'] = array('info' => t('Artline Menu Mobile'));
     $blocks['back_admin'] = array('info' => t('Backtoadmin'));
+    $blocks['ad_push'] = array('info' => t('Ads Push'));
+    $blocks['cart_block'] = array('info' => t('Cart Block'));
+    $blocks['category'] = array('info' => t('Category Block'));
+    $blocks['recent_post'] = array('info' => t('Recent Posts'));
     return $blocks;
 }
 
@@ -164,7 +168,7 @@ function artline_block_view($delta = '')
         case 'artline_fanpage':
             return array(
                 'subject' => t('Artline Fanpage'),
-                'content' => '<div class="fb-page" data-width="320px" data-href="' . variable_get("facebook_fanpage", "https://www.facebook.com/artline.vn/") . '" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"></div>',
+                'content' => '<div class="fb-page" data-width="270px" data-href="' . variable_get("facebook_fanpage", "https://www.facebook.com/artline.vn/") . '" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"></div>',
             );
 
             break;
@@ -176,7 +180,31 @@ function artline_block_view($delta = '')
             break;
           case 'artline_menu':
             return array(
-                'content' => '<div class="menu-sub-mobile"><span class="toggler-mobile">☰ Top</span></div>',
+                'content' => '<div class="menu-sub-mobile hide-mobile"><span class="toggler-mobile">☰ Top</span></div>',
+            );
+
+            break;
+          case 'ad_push':
+            return array(
+                'content' => ads_push(),
+            );
+
+            break;
+          case 'cart_block':
+            return array(
+                'content' => theme('cart_block'),
+            );
+
+            break;
+          case 'category':
+            return array(
+                'content' => category_block(),
+            );
+
+            break;
+          case 'recent_post':
+            return array(
+                'content' => recent_post(),
             );
 
             break;
@@ -222,6 +250,26 @@ function artline_theme()
         'render element' => 'element',
         'path' => drupal_get_path('module', 'artline') . '/theme',
         'template' => 'admin-dashboard',
+    );
+    $items['ad_push'] = array(
+        'render element' => 'element',
+        'path' => drupal_get_path('module', 'artline') . '/theme',
+        'template' => 'ad-push',
+    );
+    $items['cart_block'] = array(
+        'render element' => 'element',
+        'path' => drupal_get_path('module', 'artline') . '/theme',
+        'template' => 'cart',
+    );
+    $items['category'] = array(
+        'render element' => 'element',
+        'path' => drupal_get_path('module', 'artline') . '/theme',
+        'template' => 'category-block',
+    );
+    $items['recent_post'] = array(
+        'render element' => 'element',
+        'path' => drupal_get_path('module', 'artline') . '/theme',
+        'template' => 'recent-post',
     );
 
     return $items;
@@ -367,4 +415,111 @@ function _trim_character($content, $num = 200)
 function artline_admin_dashboard(){
     drupal_add_css(drupal_get_path('module', 'artline') . '/lib/admin_panel/admin-panel.css');
     return theme('admin_dashboard');
+}
+/**
+ * Ads Push
+ */
+function ads_push(){
+  $data = array();
+  $query = db_select('node','n');
+  $query->fields('n');
+  $query->condition('type','ad_push');
+  $query->condition('status',1);
+  $query->orderBy('changed','DESC');
+  $query->range(0,3);
+  $result = $query->execute()->fetchAll();
+  if($result){
+    foreach($result as $n){
+      $data[] = node_load($n->nid);
+    }
+    return theme('ad_push',array('nodes'=>$data));
+  }
+  return $data;
+}
+
+/**
+ * category block
+ */
+function category_block(){
+  $arg = arg();
+  $data = array();
+  $node = menu_get_object('node');
+  if($arg[0]=='taxonomy' && $arg[1]=='term' && is_numeric($arg[2])){
+    $tid = $arg[2];
+    $parents = taxonomy_get_parents($tid);
+    if($parents){
+      foreach($parents as $parent){
+        $childs = taxonomy_get_children($parent->tid);
+        foreach($childs as $child){
+          $data[] = taxonomy_term_load($child->tid);
+        }
+      }
+    }else{
+      $childs = taxonomy_get_children($tid);
+        foreach($childs as $child){
+          $data[] = taxonomy_term_load($child->tid);
+        }
+    }
+  }elseif($node->type=='tops'){
+        $parents = taxonomy_get_parents($node->field_category[LANGUAGE_NONE][0]['tid']);
+    if($parents){
+      foreach($parents as $parent){
+        $childs = taxonomy_get_children($parent->tid);
+        foreach($childs as $child){
+          $data[] = taxonomy_term_load($child->tid);
+        }
+      }
+    }
+  
+  }else{
+      $voca = taxonomy_vocabulary_machine_name_load('category');
+      $terms = taxonomy_get_tree($voca->vid);
+      foreach($terms as $term){
+        $taxonomy = taxonomy_term_load($term->tid);
+        if(taxonomy_get_children($term->tid)){
+          $data[] = $taxonomy;
+        }
+      }
+    }
+    return theme('category',array('terms'=>$data));
+}
+
+function artline_views_query_alter(&$view, &$query) {
+  // (Example assuming a view with an exposed filter on node title.)
+  // If the input for the title filter is a positive integer, filter against
+  // node ID instead of node title.
+  $arg = arg();
+  if ($view->name == 'product_list' && $view->current_display='page_2') {
+    // Traverse through the 'where' part of the query.
+    foreach ($query->where as $condition_group) {
+      foreach ($condition_group['conditions'] as $condition) {
+          $condition = array(
+            'field' => 'node.nid',
+            'value' => $arg[1],
+            'operator' => '!=',
+          );
+      }
+    }
+  }
+}
+
+/**
+ * recent post
+ */
+function recent_post(){
+  $nodes = array();
+  $query = db_select('node','n')
+      ->fields('n')
+      ->condition('type','blog_post')
+      ->condition('status',1)
+      ->orderBy('created','DESC')
+      ->range(0,5);
+  $result = $query->execute()->fetchAll();
+  if($result){
+    foreach($result as $n){
+      $nodes[] = node_load($n->nid);
+    }
+  }
+  
+  return theme('recent_post',array('nodes'=>$nodes));
 }

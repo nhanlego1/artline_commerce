@@ -137,11 +137,11 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0; }
 
 a:link, a:visited {
-  color: #2698f2;
+  color: #98BA33;
   text-decoration: none; }
 
 a:hover {
-  color: #000000; }
+  color: #907968; }
 
 h1#page-title {
   font-size: 28px;
@@ -2345,10 +2345,11 @@ ol.inline.commerce-checkout-progress {
 
 .node-type-blog-post h1#page-title,
 .node-type-blog-post .comment-wrapper .title {
-  color: #656565;
+/*  color: #656565;
   font-weight: 400;
   margin-bottom: 0;
-  text-transform: uppercase; }
+  text-transform: uppercase; */
+}
 .node-type-blog-post .submitted {
   color: #A0A0A0;
   font-size: 12px;
