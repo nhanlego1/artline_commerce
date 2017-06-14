@@ -72,9 +72,10 @@ function artline_form_add_to_cart($form, &$form_state)
         );
         $form['qty_' . $id['product_id']] = array(
             '#type' => 'textfield',
-            '#title' => 'Số lượng',
+//            '#title' => 'Số lượng',
             '#attributes' => array('class' => array('qty_cart')),
-            '#suffix' => '</div>'
+            '#suffix' => '</div>',
+            '#default_value'=>0
         );
     }
 
