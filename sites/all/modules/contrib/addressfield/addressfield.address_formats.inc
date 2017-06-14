@@ -423,7 +423,7 @@ function addressfield_get_address_format($country_code) {
   );
   $address_formats['VN'] = array(
     'used_fields' => array('locality', 'administrative_area', 'postal_code'),
-    'required_fields' => array('locality', 'administrative_area','premise'),
+    'required_fields' => array('locality', 'administrative_area','premise','dependent_locality'),
   );
   $address_formats['ZA'] = array(
     'used_fields' => array('dependent_locality', 'locality', 'postal_code'),
