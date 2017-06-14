@@ -141,9 +141,11 @@
 //      }
       $(".menu-sub-mobile .toggler-mobile").click(function () {
         $(".block-menu-menu-user-menu").toggle();
+        exit();
       });
       $("#jigoshop_cart-2 h3").click(function () {
         $(".widget_shopping_cart_content").toggle();
+        exit();
       });
       $("a.no-link-action").each(function () {
         $(this).removeAttr('href');
