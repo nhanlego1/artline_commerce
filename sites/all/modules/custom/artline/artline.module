@@ -71,24 +71,8 @@ function artline_form_add_to_cart($form, &$form_state)
             '#prefix' => '<div class="grid-2">'
         );
         $form['qty_' . $id['product_id']] = array(
-            '#type' => 'select',
+            '#type' => 'textfield',
             '#title' => 'Số lượng',
-            '#options' => array(
-                1 => 1,
-                2 => 2,
-                3 => 3,
-                4 => 4,
-                5 => 5,
-                6 => 6,
-                7 => 7,
-                8 => 8,
-                9 => 9,
-                10 => 10,
-                20 => 20,
-                30 => 30,
-                50 => 50,
-                100 => 100
-            ),
             '#attributes' => array('class' => array('qty_cart')),
             '#suffix' => '</div>'
         );
