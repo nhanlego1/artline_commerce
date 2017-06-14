@@ -2689,8 +2689,14 @@ span.views-field-nid{
 .images img:hover{
   border:1px solid #98BA33;
 }
+.images img{
+  border:1px solid #e9e7e6;
+}
 .images .thumb img{
   margin: 10px 5px;
+}
+.images .thumb img{
+  border:1px solid #e9e7e6;
 }
 .fixed{
   position: fixed;
