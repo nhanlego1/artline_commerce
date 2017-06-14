@@ -34,7 +34,7 @@ function addressfield_format_address_generate(&$format, $address, $context = arr
     '#weight' => 0,
   );
   $format['street_block']['thoroughfare'] = array(
-    '#title' => t('Address 1'),
+    '#title' => t('Address'),
     '#tag' => 'div',
     '#attributes' => array(
       'class' => array('thoroughfare'),
