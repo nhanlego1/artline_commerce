@@ -22,6 +22,18 @@ function artline_menu(){
         'page callback' => 'artline_admin_dashboard',
         'access arguments' => array('administer artline'),
     );
+    $items['direct/checkout'] = array(
+        'title' => 'Cart checkout ',
+        'description' => 'Control config for artline.',
+        'page callback' => 'artline_direct_checkout',
+        'access arguments' => array('access content'),
+    );
+    $items['backend'] = array(
+        'title'=> t('Admin System Login'),
+        'access arguments' => array('access content'),
+        'page callback' => 'artline_backend',
+        'type' => MENU_CALLBACK
+    );
     return $items;
 }
 
@@ -52,6 +64,18 @@ function artline_init()
 /**
  * implement hook_form_alter
  */
+function artline_form_alter(&$form, &$form_state, $form_id){
+  if($form_id=="views_form_commerce_cart_form_default"){
+    
+    $form['#submit'][] = 'artline_cart_redirect';
+   // unset($form['#submit'][0]);
+  }
+}
+
+function artline_cart_redirect($form, &$form_state){
+  $id = commerce_cart_order_id();
+  drupal_goto('checkout/'.$id);
+}
 
 /**
  * @param $form
@@ -507,4 +531,26 @@ function recent_post(){
   }
   
   return theme('recent_post',array('nodes'=>$nodes));
+}
+/**
+ * 
+ */
+function artline_direct_checkout(){
+  $id = commerce_cart_order_id();
+  drupal_goto('checkout/'.$id);
+}
+/**
+ * 
+ */
+function artline_backend(){
+  global $user;
+    $login = '';
+    if($user->uid <=0){
+        $login .='<h2>'.t('Admin Dashboard').'</h2>';
+        $form = drupal_get_form('user_login');
+        $login .= render($form);
+        return $login; 
+    }else{
+        drupal_access_denied();
+    }
 }

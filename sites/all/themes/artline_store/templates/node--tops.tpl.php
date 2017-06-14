@@ -25,8 +25,16 @@ drupal_add_library('system', 'ui.tabs');
     <?php if ($node->field_sale[LANGUAGE_NONE][0]['value'] == 1): ?>
       <span class="onsale">Sale!</span>
     <?php endif; ?>
-
-    <?php print render($content['field_product_images']); ?>
+    <div class="images">
+      <?php foreach ($node->field_product_images[LANGUAGE_NONE] as $key => $image): ?>
+        <?php if ($key == 0): ?>
+          <a class="group1 cboxElement" href="<?php print image_style_url('original', $image['uri']) ?>"><?php print theme('image_style', array('path' => $image['uri'], 'style_name' => 'detail_top')) ?></a>
+        <?php else: ?>
+          <a class="group1 thumb cboxElement" href="<?php print image_style_url('original', $image['uri']) ?>"><?php print theme('image_style', array('path' => $image['uri'], 'style_name' => 'thum_top')) ?></a>
+        <?php endif; ?>
+      <?php endforeach; ?>
+    </div>
+    <?php unset($content['field_product_images']); ?>
   </div>
   <div class="grid-11 product-info-detail">
 
@@ -109,8 +117,8 @@ drupal_add_library('system', 'ui.tabs');
   </div>
   <div class="clearfix"></div>  
   <div class="related products">
-    <h2><?php print t('Related Products')?></h2>
-    <?php print views_embed_view('product_list','page_2',$node->field_category[LANGUAGE_NONE][0]['tid']); ?>
+    <h2><?php print t('Related Products') ?></h2>
+    <?php print views_embed_view('product_list', 'page_2', $node->field_category[LANGUAGE_NONE][0]['tid']); ?>
     <div class="clear"></div>      
   </div>
 

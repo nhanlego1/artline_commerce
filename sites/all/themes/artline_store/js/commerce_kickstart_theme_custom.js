@@ -152,6 +152,16 @@
       });
 
       $("#tabs").tabs();
+      $(".group1").colorbox({rel: 'group1'});
+
+
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 170) {
+          $("#zone-menu-wrapper").addClass("fixed");
+        } else {
+          $("#zone-menu-wrapper").removeClass("fixed");
+        }
+      });
 
     }
   }

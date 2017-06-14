@@ -108,6 +108,7 @@ function commerce_checkout_redirect_commerce_checkout_router($order, $checkout_p
   $first_checkout_page = key($checkout_pages);
   end($checkout_pages);
   $last_checkout_page = key($checkout_pages);
+  $id = commerce_cart_order_id();
   // Check if the user's shopping cart order exists with something in the cart
   if (commerce_cart_order_load() && commerce_checkout_redirect_items_in_cart()) {
     if (($checkout_page['page_id'] == $first_checkout_page)) {
@@ -119,7 +120,7 @@ function commerce_checkout_redirect_commerce_checkout_router($order, $checkout_p
         }
         $redirect_path = variable_get('commerce_checkout_redirect_path', 'user/login');
         if($redirect_path == '') {
-          $redirect_path = 'user/login';
+          $redirect_path = 'checkout/'.$id;
         }
         return drupal_goto($redirect_path);
       }
@@ -165,9 +166,9 @@ function commerce_checkout_redirect_module_implements_alter(&$implementations, $
 function commerce_checkout_redirect_user_login(&$edit, &$account) {
   // Add commerce_checkout_redirect property to the account object,
   // on checkout user login.
-  if (!empty($_SESSION['commerce_checkout_redirect_anonymous'])) {
+  //if (!empty($_SESSION['commerce_checkout_redirect_anonymous'])) {
     $account->commerce_checkout_redirect = TRUE;
-  }
+  //}
 }
 
 /**
