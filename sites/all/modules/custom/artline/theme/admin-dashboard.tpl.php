@@ -47,6 +47,7 @@ global $user;
         <?php endif; ?>
 <!--        <li class="user-logout"><a href="/admin/appearance/settings/artline_store">Thay đổi logo và Favicon </a></li>-->
         <li class="user-logout"><a href="/admin/config/content/artline">Quản lý fanpage</a></li>
+        <li class="user-logout"><a href="/admin/structure/block/manage/block/10/configure?destination=admin/dashboard">Quản lý nội dung liên hệ</a></li>
         <li class="user-logout"><a href="/admin/structure/block/manage/block/3/configure?destination=admin/dashboard">Quản lý logo Bộ Công Thương</a></li>
         
         <li class="user-logout"><a href="/user/logout">Đăng xuất</a></li>
