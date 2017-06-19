@@ -2751,6 +2751,9 @@ span.views-field-nid{
 .messages.commerce-add-to-cart-confirmation{
   display: none!important;
 }
+ul.nice-menu ul{
+  z-index: 999!important;
+}
 @media only screen and (min-device-width: 1270px){
   #zone-branding-wrapper{
     padding-bottom: 30px; 
