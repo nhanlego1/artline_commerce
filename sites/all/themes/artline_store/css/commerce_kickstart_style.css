@@ -1281,7 +1281,7 @@ form#taxonomy-form-term .form-item{
     width: 226px!important;
   }
   .banner-wrap.bottom_banner.color_dark .banner_main_link h5 {
-    font-size: 30px!important;
+    font-size: 22px!important;
     line-height: 40px;
     color: #fff;
   }
@@ -1787,7 +1787,7 @@ button, input[type="reset"], input[type="submit"], input[type="button"], button:
   transition: all 300ms linear;
 }   
 .banner-wrap.bottom_banner.color_dark .banner_main_link h5 {
-  font-size: 40px;
+  font-size: 29px;
   line-height: 40px;
   color: #fff;
 }
