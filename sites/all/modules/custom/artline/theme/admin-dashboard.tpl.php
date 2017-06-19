@@ -19,7 +19,7 @@ global $user;
         <li class="manage"><a href="/admin/commerce/config/payment-methods">Chức năng thanh toán</a></li>
         <li class="manage"><a href="/admin/config/system/site-information">Cấu hình thông tin store</a></li>
         <li class="manage"><a href="/admin/structure/block/manage/block/7/configure?destination=admin/dashboard">Quản lý Free shipping block </a></li>
-        <li class="manage"><a href="admin/structure/block/manage/block/9/configure?destination=admin/dashboard">Quản lý Order online block</a></li>
+        <li class="manage"><a href="/admin/structure/block/manage/block/9/configure?destination=admin/dashboard">Quản lý Order online block</a></li>
         <li class="manage"><a href="/admin/structure/block/manage/block/8/configure?destination=admin/dashboard">Quản lý Send a Gift Block</a></li>
         <li class="manage"><a href="/admin/structure/menu/manage/menu-footer-navigation">Quản lý Menu Footer</a></li>
         <li
