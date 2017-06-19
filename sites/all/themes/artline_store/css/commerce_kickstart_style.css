@@ -2752,7 +2752,10 @@ span.views-field-nid{
   display: none!important;
 }
 ul.nice-menu ul{
-  z-index: 999!important;
+  z-index: 9999!important;
+}
+.views-slideshow-cycle-main-frame-row{
+  z-index: 0!important;
 }
 @media only screen and (min-device-width: 1270px){
   #zone-branding-wrapper{
